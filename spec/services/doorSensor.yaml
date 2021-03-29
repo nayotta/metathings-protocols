@@ -1,0 +1,9 @@
+version: 0.1.0
+spec:
+  services:
+  - name: doorSensor
+    fields:
+    - name: name
+      field: name
+    - name: currentActive
+      field: currentActive

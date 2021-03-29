@@ -4,6 +4,7 @@
 
 - [switch](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/switch.yaml)
 - [camera](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/camera.yaml)
+- [doorSensor](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/doorSensor.yaml)
 
 ## Fields
 
