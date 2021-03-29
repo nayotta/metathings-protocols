@@ -1,0 +1,9 @@
+version: 0.1.0
+spec:
+  formats:
+  - name: bool
+    type: bool
+    valids:
+    - in:
+      - false
+      - true

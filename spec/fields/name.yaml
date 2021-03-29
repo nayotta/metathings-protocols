@@ -1,0 +1,8 @@
+version: 0.1.0
+spec:
+  fields:
+  - name: name
+    format: string
+    default: ""
+    methods:
+    - getter

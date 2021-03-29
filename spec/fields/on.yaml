@@ -1,0 +1,10 @@
+version: 0.1.0
+spec:
+  fields:
+  - name: on
+    format: bool
+    default: false
+    methods:
+    - getter
+    - setter
+    - trigger
