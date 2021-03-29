@@ -1,0 +1,14 @@
+version: 0.1.0
+spec:
+  fields:
+  - name: targetActive
+    format: string
+    methods:
+    - setter
+    - getter
+    - trigger
+    valids:
+    - in:
+      - active
+      - inactive
+

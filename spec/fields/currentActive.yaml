@@ -1,0 +1,13 @@
+version: 0.1.0
+spec:
+  fields:
+  - name: currentActive
+    format: string
+    methods:
+    - getter
+    - trigger
+    valids:
+    - in:
+      - active
+      - inactive
+      - unknown

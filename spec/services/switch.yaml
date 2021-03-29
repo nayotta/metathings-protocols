@@ -3,7 +3,7 @@ spec:
   services:
   - name: switch
     fields:
-    - name: on
-      field: on
     - name: name
       field: name
+    - name: on
+      field: on

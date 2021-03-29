@@ -1,0 +1,13 @@
+version: 0.1.0
+spec:
+  services:
+  - name: camera
+    fields:
+    - name: name
+      field: name
+    - name: currentActive
+      field: currentActive
+    - name: targetActive
+      field: targetActive
+    - name: endpoint
+      field: cameraEndpoint
