@@ -8,6 +8,7 @@ spec:
     description:
     - name: id
       format: string
+      optional: true
     - name: snapshot
       format: path
       optional: true
@@ -29,6 +30,7 @@ spec:
       format: list
       description:
       - format: path
+      optional: true
     example: |
       {
         "id": "abc",
