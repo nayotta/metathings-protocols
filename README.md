@@ -16,6 +16,7 @@
 - [targetActive](https://github.com/nayotta/metathings-protocols/blob/main/spec/fields/targetActive.yaml)
 - [cameraEndpoint](https://github.com/nayotta/metathings-protocols/blob/main/spec/fields/cameraEndpoint.yaml)
 - [faceDetected](https://github.com/nayotta/metathings-protocols/blob/main/spec/fields/faceDetected.yaml)
+- [faceAuthenticated](https://github.com/nayotta/metathings-protocols/blob/main/spec/fields/faceAuthenticated.yaml)
 
 ## Formats
 
