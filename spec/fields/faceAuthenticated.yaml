@@ -1,0 +1,31 @@
+version: 0.1.0
+spec:
+  fields:
+  - name: faceAuthenticated
+    format: map
+    methods:
+    - trigger
+    description:
+    - name: id
+      format: string
+      optional: true
+    - name: authenticates
+      format: list
+      description:
+      - format: map
+        description:
+        - name: userID
+          format: string
+        - name: image
+          format: path
+          optional: true
+    example: |
+      {
+        "id": "abc",
+        "authenticates": [
+          {
+            "userID": "xxx",
+            "image": "/tmp/xxx01.jpg"
+          }
+        ]
+      }

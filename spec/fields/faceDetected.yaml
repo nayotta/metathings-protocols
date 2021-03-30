@@ -10,7 +10,10 @@ spec:
       format: string
       optional: true
     - name: snapshot
-      format: path
+      format: map
+      description:
+      - name: image
+        format: path
       optional: true
     - name: anchors
       format: list
@@ -29,12 +32,17 @@ spec:
     - name: detects
       format: list
       description:
-      - format: path
+      - format: map
+        description:
+        - name: image
+          format: path
       optional: true
     example: |
       {
         "id": "abc",
-        "snapshot": "/tmp/snapshot.jpg",
+        "snapshot": {
+          "image": "/tmp/snapshot.jpg"
+        },
         "anchors": [
           {
             "x1": 0,
@@ -44,6 +52,8 @@ spec:
           }
         ],
         "detects": [
-          "/tmp/detect01.jpg"
+          {
+            "image": "/tmp/detect01.jpg"
+          }
         ]
       }

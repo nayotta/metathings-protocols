@@ -1,0 +1,9 @@
+version: 0.1.0
+spec:
+  services:
+  - name: faceAuthenticationSensor
+    fields:
+    - name: name
+      field: name
+    - name: faceAuthenticated
+      field: faceAuthenticated

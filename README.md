@@ -6,6 +6,7 @@
 - [camera](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/camera.yaml)
 - [doorSensor](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/doorSensor.yaml)
 - [faceDetectionSensor](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/faceDetectionSensor.yaml)
+- [faceAuthenticationSensor](https://github.com/nayotta/metathings-protocols/blob/main/spec/services/faceAuthenticationSensor.yaml)
 
 ## Fields
 
