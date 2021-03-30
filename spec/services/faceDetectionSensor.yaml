@@ -5,5 +5,5 @@ spec:
     fields:
     - name: name
       field: name
-    - name: faceDetected
+    - name: detected
       field: faceDetected

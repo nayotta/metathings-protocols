@@ -5,5 +5,5 @@ spec:
     fields:
     - name: name
       field: name
-    - name: faceAuthenticated
+    - name: authenticated
       field: faceAuthenticated
