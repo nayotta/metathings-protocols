@@ -1,0 +1,9 @@
+version: 0.1.0
+spec:
+  services:
+  - name: faceDetectionSensor
+    fields:
+    - name: name
+      field: name
+    - name: faceDetected
+      field: faceDetected

@@ -1,0 +1,47 @@
+version: 0.1.0
+spec:
+  fields:
+  - name: faceDetected
+    format: map
+    methods:
+    - trigger
+    description:
+    - name: id
+      format: string
+    - name: snapshot
+      format: path
+      optional: true
+    - name: anchors
+      format: list
+      description:
+      - format: map
+        description:
+        - name: x1
+          format: int
+        - name: y1
+          format: int
+        - name: x2
+          format: int
+        - name: y2
+          format: int
+      optional: true
+    - name: detects
+      format: list
+      description:
+      - format: path
+    example: |
+      {
+        "id": "abc",
+        "snapshot": "/tmp/snapshot.jpg",
+        "anchors": [
+          {
+            "x1": 0,
+            "y1": 0,
+            "x2": 10,
+            "y2": 10
+          }
+        ],
+        "detects": [
+          "/tmp/detect01.jpg"
+        ]
+      }
